@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<body>
+  <form action="/reply">
+    <select name="states">
+      {{states}}
+    </select>
+	<input type="submit" value="pick a state">
+  </form>
+  <br><br>
+  <form action="/secondReply">
+	<select name="county">
+      {{county}}
+    </select>
+    <input type="submit" value="pick a county">
+  </form>
+  <p>
+    {{fact}}
+  </p>
+</body>
+</html>
